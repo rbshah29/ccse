@@ -1,0 +1,5 @@
+In task 2 i have taken input from user first total number of element and then the list if integer which has negative and positive integer. Then i have pass those number to function "Sum", where it checks if its integer or not then it will enter if condition. Then return sum of positive interger using sum function in python 
+
+User Input --> Function Call (sum_check) --> Function Processing(use inbuild "sum" function) --> Result Printing
+
+Potential optimisation -> Optimizing Input, Input Validation, Error Handling

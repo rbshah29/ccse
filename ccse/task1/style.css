@@ -1,0 +1,29 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 15px;
+    text-transform: capitalize;
+    width: calc(33.33% - 20px); /*3 post in a row*/ 
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.delete-btn {
+    background-color: #ff6262;
+    color: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+}
+
+#title{
+    text-align: center;
+}

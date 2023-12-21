@@ -1,0 +1,7 @@
+
+The approach involves using the fetch API to request data from the JSONPlaceholder API. Upon receiving the JSON data, the script dynamically creates individual blog cards for each post using DOM manipulation. These cards are then appended to the HTML container, with styling applied for a visually appealing presentation, including a Times New Roman font, capitalized text, and a subtle box shadow.
+
+INDIVIDUAL DESCRIPTION :
+Html :- The HTML file includes a container where the dynamically generated blog cards will be appended.
+
+JavaScript :- I have use event listener for the DOMContentLoaded event, and i have make api request to retrive data from "https://jsonplaceholder.typicode.com/posts". Then this data is used to create blog cards using the "createBlogCard" function. Then it is appended to container in html file 
